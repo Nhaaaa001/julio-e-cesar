@@ -1,0 +1,63 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO UM</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ScrollReveal Library -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="content-section">
+        <h1>Bem-vindo ao meu site!</h1>
+        <p>Este é um projeto simples para estudar programação.</p>
+    </section>
+
+    <section id="sobre" class="content-section">
+        <h2>Sobre o Projeto</h2>
+        <p>Este projeto foi desenvolvido com foco em acessibilidade e design responsivo.</p>
+    </section>
+
+    <section id="projetos" class="content-section">
+        <h2>Meus Projetos</h2>
+        <p>Confira os projetos que desenvolvi até agora:</p>
+        <ul>
+            <li>Projeto 1 - Desenvolvimento Web</li>
+            <li>Projeto 2 - Animações com JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="contato" class="content-section">
+        <h2>Contato</h2>
+        <p>Me envie um e-mail para: sophia.domaradzki@escola.pr.gov.br</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Todos os direitos reservados | <a href="https://creativecommons.org/licenses/by/4.0/">Licenciado sob Creative Commons</a></p>
+    </footer>
+
+    <script>
+        // ScrollReveal para animações suaves
+        ScrollReveal().reveal('.content-section', { 
+            duration: 1500, 
+            delay: 200, 
+            distance: '50px',                                           
+            origin: 'bottom' 
+        });
+    </script>
+</body>
+</html>
+
+
